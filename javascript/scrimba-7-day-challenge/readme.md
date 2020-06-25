@@ -1,0 +1,5 @@
+# Scrimbas 7 day javascript code challenges
+
+- [01-add-border](./01-add-border/readme.md)
+- [02-add-two-digits](./02-add-two-digits/readme.md)
+- [03-first-duplicate](./02-first-duplicate/readme.md)
