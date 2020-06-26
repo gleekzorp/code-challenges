@@ -2,6 +2,9 @@
 
 ## Day 1 Add-Border
 
+### Code
+> [code](./index.js)
+
 ### Challenge
 > https://scrimba.com/c/cPkE44uE
 

@@ -17,7 +17,7 @@ let number = 642386
 // Original Way
 function evenDigitsOnly(number) {
   let arrayOfNumbers = number.toString().split('')
-  for (num of arrayOfNumbers) {
+  for (let num of arrayOfNumbers) {
     if (parseInt(num) % 2 != 0) {
       return false
     }

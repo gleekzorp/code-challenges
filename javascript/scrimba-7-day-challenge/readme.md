@@ -5,3 +5,4 @@
 - [03-first-duplicate](./03-first-duplicate/readme.md)
 - [04-sum-all-primes](./04-sum-all-primes/readme.md)
 - [05-even-digits-only](./05-even-digits-only/readme.md)
+- [06-make-array-consecutive](./06-make-array-consecutive.md)

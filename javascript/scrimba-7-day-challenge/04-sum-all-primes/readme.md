@@ -2,6 +2,9 @@
 
 ## Day 4 Sum All Primes
 
+### Code
+> [code](./index.js)
+
 ### Challenge
 > https://scrimba.com/c/crGwQ9um
 

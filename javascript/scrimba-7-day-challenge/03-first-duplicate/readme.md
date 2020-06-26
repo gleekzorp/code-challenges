@@ -2,6 +2,9 @@
 
 ## Day 3 First Duplicate
 
+### Code
+> [code](./index.js)
+
 ### Challenge
 > https://scrimba.com/c/cE9agzt3
 
