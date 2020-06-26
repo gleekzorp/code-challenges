@@ -2,4 +2,5 @@
 
 - [01-add-border](./01-add-border/readme.md)
 - [02-add-two-digits](./02-add-two-digits/readme.md)
-- [03-first-duplicate](./02-first-duplicate/readme.md)
+- [03-first-duplicate](./03-first-duplicate/readme.md)
+- [04-sum-all-primes](./04-sum-all-primes/readme.md)
