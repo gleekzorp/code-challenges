@@ -11,5 +11,5 @@
 ### Solution
 > https://scrimba.com/c/cGmaZqsE
 
-### GO BACK HOME
+### GO BACK TO 7 DAY CHALLENGE HOME
 > [home](../readme.md)
