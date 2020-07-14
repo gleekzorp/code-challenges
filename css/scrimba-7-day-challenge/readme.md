@@ -3,6 +3,7 @@
 > [Take The Seven Day Challenge](https://csschallenge.scrimba.com/)
 
 - [01-improve-this-website](./01-improve-this-website/readme.md)
+- [02-navbar-creation](./02-navbar-creation/readme.md)
 
 
 ### GO BACK HOME
