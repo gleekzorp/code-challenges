@@ -4,6 +4,7 @@
 
 - [01-improve-this-website](./01-improve-this-website/readme.md)
 - [02-navbar-creation](./02-navbar-creation/readme.md)
+- [03-blog-page-layout](./03-blog-page-layout/readme.md)
 
 
 ### GO BACK HOME
