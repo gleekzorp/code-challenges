@@ -1,0 +1,72 @@
+/* DON'T TOUCH THIS! */
+body {
+	margin: 0;
+	padding: 0;
+	background: #474747;
+}
+
+.squares {
+
+}
+
+div[class^="square"] {
+	height: 25vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.square1 {
+	background: #ffa9a3;
+}
+
+.square2 {
+	background: #4e82c2;
+}
+
+.square3 {
+	background: #4ec267;
+}
+
+.square4 {
+	background: #f2fa87;
+}
+
+/* DON'T TOUCH THIS! */
+
+/* Your goal is to animate the bars shown on the screen so that they
+all turn into a single color sequentially. There should be a little
+bit of time between each bar changing color, so that it gives the
+appearance of a gradual transition. */
+
+/*
+TODO: He said the way I did was the niave way.
+He mentioned he was going to show a different way to do this but never showed it
+*/
+@keyframes color-change {
+	to {background: blue;}
+}
+
+.square1 {
+	animation-name: color-change;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+}
+.square2 {
+	animation-name: color-change;
+	animation-duration: 4s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+.square3 {
+	animation-name: color-change;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+.square4 {
+	animation-name: color-change;
+	animation-duration: 4s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
