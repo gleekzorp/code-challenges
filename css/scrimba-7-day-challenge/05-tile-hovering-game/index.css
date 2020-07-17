@@ -1,0 +1,88 @@
+/* DON'T TOUCH THIS! */
+body {
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.tiles {
+	display: grid;
+	grid-template-columns: repeat(3,10vw);
+	grid-template-rows: repeat(3,10vw);
+	grid-gap: 1vw;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.tile {
+	border: 1px solid black;
+	border-radius: 20px;
+}
+/* DON'T TOUCH THIS! */
+
+/*
+Your goal is to use CSS to change the colors of the tiles when
+they are hovered over. Hovering over a tile will result in its
+color being changed exclusively. The color to change it to is up to you.
+The tile should also grow to 1.5 times its original size. Good luck!
+*/
+
+.tile {
+  /* transition: ease-in-out 1s; */
+  /* transition: background 1s; */
+  transition: all 1s;
+}
+
+.tile:hover {
+  /* margin: 1em; */
+  /* transform: translate(-60%, -60%); */
+  transform: scale(1.5);
+  background: red;
+}
+
+.tile:hover:nth-child(odd) {
+  background: blue;
+}
+
+.tile:nth-child(even):hover {
+  background: green;
+}
+
+/* .tile1:hover {
+  background: blue;
+}
+
+.tile2:hover {
+  background: green;
+}
+
+.tile3:hover {
+  background: purple;
+}
+
+.tile4:hover {
+  background: yellow;
+}
+
+.tile5:hover {
+  background: orange;
+}
+
+.tile6:hover {
+  background: black;
+}
+
+.tile7:hover {
+  background: pink;
+}
+
+.tile8:hover {
+  background: turquoise;
+}
+
+.tile9:hover {
+  background: brown;
+} */
