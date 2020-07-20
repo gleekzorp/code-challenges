@@ -7,6 +7,7 @@
 - [03-blog-page-layout](./03-blog-page-layout/readme.md)
 - [04-logo-animation](./04-logo-animation/readme.md)
 - [05-tile-hovering-game](./05-tile-hovering-game/readme.md)
+- [06-animated-one-pager](./06-animated-one-pager/readme.md)
 
 
 ### GO BACK HOME

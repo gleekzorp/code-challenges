@@ -1,6 +1,6 @@
 # Scrimbas 7 day CSS code challenges
 
-## Day 4 Logo Animation
+## Day 5 Logo Animation
 
 ### Code
 > [HTML](./index.html)
