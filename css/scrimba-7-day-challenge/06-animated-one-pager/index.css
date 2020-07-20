@@ -73,3 +73,63 @@ and finally, the footer section expanding and fading in from the left.
 There should be some delay between the animations, but they should still overlap for the most part.
 The page elements shouldn't be seen until their animations are played. Good luck!
  */
+
+@keyframes left-expand {
+	from {
+		width: 50%;
+		opacity: 0;
+	}
+	to {
+		width: 100%;
+		opacity: 1;
+	}
+ }
+
+@keyframes scale-up {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes top-expand {
+	from {
+		/* height: 50%; */
+		height: 15vh;
+		opacity: 0;
+	}
+	to {
+		/* height: 100%; */
+		height: 30vh;
+		opacity: 1;
+	}
+}
+
+#title-section {
+	animation-name: left-expand;
+	animation-duration: 1s;
+	/* animation-timing-function: linear; */
+}
+
+#hero-section {
+	animation-name: scale-up;
+	animation-duration: 1s;
+	animation-delay: 0.5s;
+	animation-fill-mode: backwards;
+}
+
+#about-us-section {
+	animation-name: top-expand;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	animation-fill-mode: backwards;
+}
+
+#footer-section {
+	animation-name: left-expand;
+	animation-duration: 1s;
+	animation-delay: 1.5s;
+	animation-fill-mode: backwards;
+}

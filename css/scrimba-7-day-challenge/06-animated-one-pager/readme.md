@@ -11,7 +11,7 @@
 > https://scrimba.com/c/cLkGGrH9
 
 ### Solution
-> 
+> https://scrimba.com/c/cqG77Vc9
 
 ### Helpful Pages
 > https://www.w3schools.com/css/css3_animations.asp
