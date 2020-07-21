@@ -1,0 +1,88 @@
+/* DON'T TOUCH THIS! */
+body, html {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+}
+
+body {
+	text-align: center;
+	color: white;
+	background: url(https://s23574.pcdn.co/wp-content/uploads/Singular-1140x703.jpg);
+	background-size: cover;
+	font-family: PT Sans Narrow, sans-serif;
+}
+
+#title-section {
+	text-transform: uppercase;
+	
+	margin: 4vh;
+}
+
+.title {
+	margin: 0;
+	font-size: 3em;
+}
+
+
+.section-text {
+	font-size: 2em;
+	font-weight: 800;
+}
+
+#action-section {
+	width: 80vw;
+}
+
+.section-button {
+	background: #3765ab;
+	border: none;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	font-size: 2em;
+	font-family: PT Sans Narrow, sans-serif;
+	transition: background 0.5s;
+}
+
+.section-button:hover {
+	background: #73adff;
+}
+
+/* DON'T TOUCH THIS! */
+
+/*
+Your goal is to arrange and animate the given landing page.
+The contents of the page should be centered both vertically and horizontally.
+On top of that, when the page loads, a fade-in animation should play that causes
+the title to fade in, shortly followed by the rest of the page content. Good luck!
+*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#title-section {
+  animation-name: fade-in;
+  animation-duration: 2.5s;
+}
+
+#action-section {
+  animation-name: fade-in;
+  animation-duration: 2.5s;
+  animation-delay: .75s;
+  animation-fill-mode: backwards;
+}
