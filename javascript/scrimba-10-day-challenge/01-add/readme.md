@@ -9,7 +9,7 @@
 > https://scrimba.com/c/c6W8k7A2
 
 ### Solution
-> 
+> https://scrimba.com/c/cybGabf4
 
 ### GO BACK TO 10 DAY CHALLENGE HOME
 > [home](../readme.md)
