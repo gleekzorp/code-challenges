@@ -7,3 +7,4 @@
 
 # Javascript
 - [Scrimba 7 Day JS Challenge](./javascript/scrimba-7-day-challenge/readme.md)
+- [Scrimba 10 Day JS Challenge](./javascript/scrimba-10-day-challenge/readme.md)
