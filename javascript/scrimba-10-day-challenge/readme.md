@@ -4,6 +4,7 @@
 
 - [01-add](./01-add/readme.md)
 - [02-all-longest-strings](./02-all-longest-strings/readme.md)
+- [03-alternating-sums](./03-alternating-sums/readme.md)
 
 ### GO BACK HOME
 > [home](../../readme.md)
