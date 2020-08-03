@@ -7,6 +7,7 @@
 - [03-alternating-sums](./03-alternating-sums/readme.md)
 - [04-array-replace](./04-array-replace/readme.md)
 - [05-case-insensitive-palindrome](./05-case-insensitive-palindrome/readme.md)
+- [06-enclose-in-brackets](./06-enclose-in-brackets/readme.md)
 
 ### GO BACK HOME
 > [home](../../readme.md)
