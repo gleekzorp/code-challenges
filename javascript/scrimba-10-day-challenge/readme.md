@@ -9,6 +9,7 @@
 - [05-case-insensitive-palindrome](./05-case-insensitive-palindrome/readme.md)
 - [06-enclose-in-brackets](./06-enclose-in-brackets/readme.md)
 - [07-number-factorial](./07-number-factorial/readme.md)
+- [08-first-digit](./08-first-digit/readme.md)
 
 ### GO BACK HOME
 > [home](../../readme.md)
