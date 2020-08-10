@@ -11,6 +11,7 @@
 - [07-number-factorial](./07-number-factorial/readme.md)
 - [08-first-digit](./08-first-digit/readme.md)
 - [09-largest-number](./09-largest-number/readme.md)
+- [10-max-multiple](./10-max-multiple/readme.md)
 
 ### GO BACK HOME
 > [home](../../readme.md)
