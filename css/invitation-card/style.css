@@ -9,16 +9,25 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.info-label,
-.end {
-  font-weight: 800;
+.card {
+  padding: 1em;
+}
+
+.title {
+  font-size: 3rem;
 }
 
 .card img {
-  max-width: 100px;
-  margin-top: 2em;
+  max-width: 200px;
+  margin: 2em;
 }
 
 .card p {
-  margin-top: 2em;
+  margin: 2em;
+}
+
+.info-label,
+.end {
+  font-size: 1.25rem;
+  font-weight: 800;
 }
