@@ -1,0 +1,24 @@
+/* ==========================
+	Write your solution here!
+========================== */
+   
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #a6e87d;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.info-label,
+.end {
+  font-weight: 800;
+}
+
+.card img {
+  max-width: 100px;
+  margin-top: 2em;
+}
+
+.card p {
+  margin-top: 2em;
+}

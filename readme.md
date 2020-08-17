@@ -4,6 +4,7 @@
 
 # CSS
 - [Scrimba 7 Day CSS Challenge](./css/scrimba-7-day-challenge/readme.md)
+- [Scrimba CSS Invitation Card Challenge](./css/invitation-card/readme.md)
 
 # Javascript
 - [Scrimba 7 Day JS Challenge](./javascript/scrimba-7-day-challenge/readme.md)
