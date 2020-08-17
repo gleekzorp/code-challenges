@@ -24,7 +24,7 @@ Your main goal is to style the invitation card and make it look presentable!
  - Bold font weight: 800
 
 ### Solution
-> 
+> https://scrimba.com/c/cBzD4rHP
 
 ### GO BACK TO CODE CHALLENGES HOME
 > [home](../../readme.md)
