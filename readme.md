@@ -10,4 +10,4 @@
 - [Scrimba 7 Day JS Challenge](./javascript/scrimba-7-day-challenge/readme.md)
 - [Scrimba 10 Day JS Challenge](./javascript/scrimba-10-day-challenge/readme.md)
 - [Scrimba Fetch Data Local json](./javascript/fetch-data-local-json/readme.md)
-- [Regex](./javascript/free-code-camp/regex/readme.md)
+- [Free Code Camp Regex](./javascript/free-code-camp/regex/readme.md)
