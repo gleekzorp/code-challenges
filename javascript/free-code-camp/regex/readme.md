@@ -12,3 +12,4 @@
 > I would like to look back into [reuse-patterns-using-capture-groups](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/reuse-patterns-using-capture-groups#) as I didn't fully understand it.
 
 # TODO: Make a list of regex syntax.  Example: \s - is spaces
+- Something like this https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet
