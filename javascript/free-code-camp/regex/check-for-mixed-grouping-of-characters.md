@@ -17,4 +17,4 @@ let result = myRegex.test(myString);
 console.log(result)
 ```
 
-[Solution Hints](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-check-for-mixed-grouping-of-characters/301339)
+[Solution and Hints](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-check-for-mixed-grouping-of-characters/301339)

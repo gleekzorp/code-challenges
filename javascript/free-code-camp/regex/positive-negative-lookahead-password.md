@@ -12,4 +12,4 @@ let pwRegex = /^\D(?=\w{5,})(?=\w*\d{2,})/;
 let result = pwRegex.test(sampleWord);
 ```
 
-[Solution Hints](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-positive-and-negative-lookahead/301360)
+[Solution and Hints](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-positive-and-negative-lookahead/301360)
