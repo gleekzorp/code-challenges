@@ -14,3 +14,7 @@ console.log(result)
 ```
 
 [Solution and Hints](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-remove-whitespace-from-start-and-end/301362)
+
+
+### GO BACK TO REGEX HOME
+> [home](./readme.md)

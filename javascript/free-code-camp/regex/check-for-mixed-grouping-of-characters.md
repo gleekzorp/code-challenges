@@ -18,3 +18,7 @@ console.log(result)
 ```
 
 [Solution and Hints](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-check-for-mixed-grouping-of-characters/301339)
+
+
+### GO BACK TO REGEX HOME
+> [home](./readme.md)
