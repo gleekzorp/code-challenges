@@ -1,4 +1,4 @@
-# Free Code Camp Regex
+# Free Code Camp Javascript Basic Algorithm Scripting
 
 > This is a list of all the challenges I did for the Basic Algorithm Scripting section of the Javascript Algorithms and Data Structures Certification.
 
