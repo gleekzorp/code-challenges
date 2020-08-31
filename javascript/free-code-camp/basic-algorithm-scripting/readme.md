@@ -9,6 +9,7 @@
 - [Reverse A String](./reverse-a-string.js)
 - [Factorialize A Number](./factorialize-a-number.js)
 - [Find The Longest Word In A String](./find-the-longest-word-in-a-string.js)
+- [Return Largest Numbers in Arrays](./return-largest-numbers-in-arrays.js)
 
 TODO before next class:
 - Return Largest Numbers in Arrays
