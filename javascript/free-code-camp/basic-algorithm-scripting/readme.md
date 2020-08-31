@@ -10,6 +10,7 @@
 - [Factorialize A Number](./factorialize-a-number.js)
 - [Find The Longest Word In A String](./find-the-longest-word-in-a-string.js)
 - [Return Largest Numbers in Arrays](./return-largest-numbers-in-arrays.js)
+- [Confirm the Ending](./confirm-the-ending.js)
 
 TODO before next class:
 - Return Largest Numbers in Arrays
