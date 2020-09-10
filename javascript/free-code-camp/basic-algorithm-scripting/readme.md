@@ -14,3 +14,4 @@
 - [Repeat a String Repeat a String](./repeat-a-string-repeat-a-string.js)
 - [Truncate a String](./truncate-a-string.js)
 - [Finders Keepers](./finders-keepers.js)
+- [Boo Who](./boo-who.js)
