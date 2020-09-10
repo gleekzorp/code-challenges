@@ -15,3 +15,4 @@
 - [Truncate a String](./truncate-a-string.js)
 - [Finders Keepers](./finders-keepers.js)
 - [Boo Who](./boo-who.js)
+- [Title Case A Sentence](./title-case-a-sentence.js)
