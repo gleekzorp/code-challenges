@@ -9,16 +9,16 @@
 // Inside loop append the str to the empty string
 
 
-function repeatStringNumTimes(str, num) {
-  let repeatedString = ""
-  for (let i = 0; i < num; i++) {
-    console.log(i)
-    repeatedString += str
-  }
-  return repeatedString;
-}
+// function repeatStringNumTimes(str, num) {
+//   let repeatedString = ""
+//   for (let i = 0; i < num; i++) {
+//     console.log(i)
+//     repeatedString += str
+//   }
+//   return repeatedString;
+// }
 
-console.log(repeatStringNumTimes("abc", 3));
+// console.log(repeatStringNumTimes("abc", 3));
 
 
 
@@ -62,10 +62,11 @@ console.log(repeatStringNumTimes("abc", 3));
 /////////////////////
 // Recursion Ternary
 ////////////////////
-// function repeatStringNumTimes(str, num) {
-//   return num < 1 ? "" : str + repeatStringNumTimes(str, num - 1)
-// }
+function repeatStringNumTimes(str, num) {
+  debugger
+  return num < 1 ? "" : str + repeatStringNumTimes(str, num - 1)
+}
 
-// console.log(repeatStringNumTimes("abc", 3));
-// console.log(repeatStringNumTimes("abc", 1));
-// console.log(repeatStringNumTimes("abc", -2));
+console.log(repeatStringNumTimes("abc", 3));
+console.log(repeatStringNumTimes("abc", 1));
+console.log(repeatStringNumTimes("abc", -2));

@@ -12,8 +12,4 @@
 - [Return Largest Numbers in Arrays](./return-largest-numbers-in-arrays.js)
 - [Confirm the Ending](./confirm-the-ending.js)
 - [Repeat a String Repeat a String](./repeat-a-string-repeat-a-string.js)
-
-TODO before next class:
-- Return Largest Numbers in Arrays
-- Confirm the Ending
-- Repeat a String Repeat a String
+- [Truncate a String](./truncate-a-string.js)

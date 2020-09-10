@@ -65,7 +65,7 @@ console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [10
 //////////////
 // function largestOfFour(arr) {
 //   let result = arr.map((item) => {
-//     console.log(item)
+//     // console.log(item)
 //     return item.reduce((prev, current) => {
 //       if (prev > current) {
 //         return prev
@@ -89,7 +89,6 @@ console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [10
 ///////////////////////
 // function largestOfFour(arr) {
 //   let result = arr.map((item) => {
-//     console.log(item)
 //     return item.reduce((prev, current) => {
 //       return prev > current ? prev : current
 //     })
@@ -109,7 +108,6 @@ console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [10
 ///////////////////
 // function largestOfFour(arr) {
 //   let result = arr.map((item) => {
-//     console.log(item)
 //     return Math.max(...item)
 //   })
 //   return result;
@@ -126,7 +124,6 @@ console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [10
 ////////////
 // function largestOfFour(arr) {
 //   let result = arr.map((item) => {
-//     console.log(item)
 //     return item.sort((a, b) => b-a)[0]
 //   })
 //   return result;
