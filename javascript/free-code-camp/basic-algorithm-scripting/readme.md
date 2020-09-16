@@ -20,3 +20,4 @@
 - [Falsy Bouncer](./falsy-bouncer.js)
 - [Where Do I Belong](./where-do-i-belong.js)
 - [Mutations](./mutations.js)
+- [Chunky Monkey](./chunky-monkey.js)
