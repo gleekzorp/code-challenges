@@ -18,3 +18,4 @@
 - [Title Case A Sentence](./title-case-a-sentence.js)
 - [Slice and Splice](./slice-and-splice.js)
 - [Falsy Bouncer](./falsy-bouncer.js)
+- [Where Do I Belong](./where-do-i-belong.js)
