@@ -1,3 +1,4 @@
+// https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-mutations/16025
 // split first item into individual letters into its own array
 // split the second item into individual letters into its own array
 // loop through second array
