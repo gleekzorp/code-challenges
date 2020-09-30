@@ -8,3 +8,5 @@
 - [Sum All Numbers In A Range](./sum-all-numbers-in-a-range.js)
 - [Diff Two Arrays](./diff-two-arrays.js)
 - [Seek And Destroy](./seek-and-destroy.js)
+- [Wherefore art thou](./wherefor-art-thou.js)
+- [Spinal Tap Case](./spinal-tap-case)
