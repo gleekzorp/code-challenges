@@ -1,3 +1,5 @@
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/slice-and-splice
+
 // Get the first half
 // Get the second half
 // push/spread the arr1 to the first half

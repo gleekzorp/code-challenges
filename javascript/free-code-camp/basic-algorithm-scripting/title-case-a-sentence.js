@@ -1,3 +1,5 @@
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/title-case-a-sentence
+
 // split the string
 // loop through string array
 // grab first letter

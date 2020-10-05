@@ -1,3 +1,5 @@
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/chunky-monkey
+
 // https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-chunky-monkey/16005
 
 // create a variable called result and assign it an empty array

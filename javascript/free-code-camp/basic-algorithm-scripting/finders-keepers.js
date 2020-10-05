@@ -1,3 +1,5 @@
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/finders-keepers
+
 // loop through the arr
 // run the function for each item in that array
 

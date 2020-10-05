@@ -1,3 +1,5 @@
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/truncate-a-string
+
 // if str.length > num
 // return the string[0:num]
 
