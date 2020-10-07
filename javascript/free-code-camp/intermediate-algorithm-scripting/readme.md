@@ -9,4 +9,5 @@
 - [Diff Two Arrays](./diff-two-arrays.js)
 - [Seek And Destroy](./seek-and-destroy.js)
 - [Wherefore art thou](./wherefor-art-thou.js)
-- [Spinal Tap Case](./spinal-tap-case)
+- [Spinal Tap Case](./spinal-tap-case.js)
+- [Pig Latin](./pig-latin.js)
