@@ -11,3 +11,5 @@
 - [Wherefore art thou](./wherefor-art-thou.js)
 - [Spinal Tap Case](./spinal-tap-case.js)
 - [Pig Latin](./pig-latin.js)
+- [Search and Replace](./search-and-replace.js)
+- [DNA pairing](./dna-pairing.js)
