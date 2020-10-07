@@ -1,3 +1,5 @@
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/seek-and-destroy
+
 // function destroyer(arr) {
 //   let argumentsArray = Object.values(arguments).splice(1)
 //   let notFound = []

@@ -1,3 +1,5 @@
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range
+
 // create a range from the lowest to biggest
 // Find out which is bigger
 // loop through and add each number to the current total

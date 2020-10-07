@@ -1,3 +1,5 @@
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/spinal-tap-case
+
 // break string into array seperated by spaces, caps, underscore, and dashes
 // lowercase all the letters
 // join back together with dash
@@ -14,9 +16,14 @@ function spinalCase(str) {
   // replaces any random numbers and replaces with a dash
   str = str.replace(/\d/g, "-");
   // replaces any white spaces or underscores with a dash
-  return str.replace(/\s+|_+/g, "-").toLowerCase();
+  return str.replace(/\s|_/g, "-").toLowerCase();
+  // return str.replace(/\s+|_+/g, "-").toLowerCase();
 }
+
 
 console.log(spinalCase("This Is Spinal Tap"));
 console.log(spinalCase("ThisIsSpinalTap"));
+console.log(spinalCase("The_Andy_Griffith_Show"))
+console.log(spinalCase("Teletubbies say Eh-oh"))
+console.log(spinalCase("AllThe-small Things"))
 console.log(spinalCase("This8IsSpinalTap"));
