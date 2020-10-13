@@ -1,4 +1,5 @@
 // https://www.codewars.com/kata/52f3149496de55aded000410/train/javascript
+// https://www.codewars.com/kata/52f3149496de55aded000410/solutions/javascript
 
 function sumDigits(number) {
   number = Math.abs(number)
