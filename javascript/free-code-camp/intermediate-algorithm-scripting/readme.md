@@ -15,3 +15,4 @@
 - [DNA pairing](./dna-pairing.js)
 - [Missing Letters](./missing-letters.js)
 - [Sorted Union](./sorted-union.js)
+- [Convert To Html Entities](./convert-to-html-entities.js)
