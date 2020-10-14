@@ -13,3 +13,5 @@
 - [Pig Latin](./pig-latin.js)
 - [Search and Replace](./search-and-replace.js)
 - [DNA pairing](./dna-pairing.js)
+- [Missing Letters](./missing-letters.js)
+- [Sorted Union](./sorted-union.js)
