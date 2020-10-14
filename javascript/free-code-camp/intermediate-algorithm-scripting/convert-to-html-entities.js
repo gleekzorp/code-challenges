@@ -1,4 +1,5 @@
 // https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/convert-html-entities
+// https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-convert-html-entities/16007
 
 // function convertHTML(str) {
 //   let entities = {
