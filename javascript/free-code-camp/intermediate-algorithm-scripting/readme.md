@@ -17,3 +17,4 @@
 - [Sorted Union](./sorted-union.js)
 - [Convert To Html Entities](./convert-to-html-entities.js)
 - [Sum All Odd Fibonacci Numbers](./sum-all-odd-fibonacci-numbers.js)
+- [Sum All Primes](./sum-all-primes.js)
