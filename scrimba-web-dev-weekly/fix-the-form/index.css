@@ -1,0 +1,108 @@
+/*
+
+PART 1:
+
+You've been ordered to improve your company's newsletter form. 
+You can design it however you want, but the manager wants the button to
+animate both on the :hover and the :active state.
+
+1. Redesign the page (e.g. colors, positions, sizing, spacing)
+2. Improve the button's hover effect
+3. Improve thee button's click effect
+
+SKILLS:
+color, background, margin, padding, border-radius, 
+CSS pseudo selectors (:active, :hover), transform
+*/
+
+/* https://css-tricks.com/tinted-images-multiple-backgrounds/ */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      115deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("./images/brick-2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: 'Grandstander', cursive;
+}
+
+form, #success {
+  border: 1px solid white;
+  box-shadow: inset 0px 0px 12px 4px #dcffa6, 0px 0px 12px 4px #dcffa6;
+  padding: 2em;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #3d3dafab;
+}
+
+#success {
+  display: none;
+}
+
+form div {
+  padding: 2em 0;
+}
+
+h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+input {
+  border-radius: 4px;
+  width: 200px;
+  padding: 1em;
+  font-family: 'Grandstander', cursive;
+  border: none;
+  outline-color: #dcffa6;
+}
+
+button {
+  display: block;
+  border: none;
+  border-radius: 2px;
+  background: #3d492b;
+  font-size: 15px;
+  color: white;
+  font-family: 'Grandstander', cursive;
+  padding: 1em 2em;
+}
+
+button:hover {
+  transition: 0.2s ease-in-out;
+  background-color: white;
+  color: black;
+}
+
+button:active {
+  color: green;
+}
+
+.question-mark {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 50;
+  left: 41.3;
+  background: transparent;
+  z-index: 1;
+}
+
+/* Some stack overflow stuff */
+/* https://stackoverflow.com/questions/28221179/hide-part-of-a-border-in-css */
+
+/* box-shadow: 7px 8px 10px 0px #dcffa6, -8px 7px 10px #dcffa6; */
+/* box-shadow: 5px 5px 5px #dcffa6, -5px 5px 5px #dcffa6; */
+/* box-shadow: 5px 5px 5px #dcffa6, -5px 5px 5px #dcffa6, inset 5px 5px 5px #dcffa6; */
+/* box-shadow: 5px 5px 5px #dcffa6, -5px 5px 5px #dcffa6, inset -5px -5px 5px #dcffa6, inset 5px -5px 5px #dcffa6; */
