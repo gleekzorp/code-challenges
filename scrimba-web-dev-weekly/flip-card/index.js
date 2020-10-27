@@ -38,6 +38,9 @@ cardContainer.addEventListener('mouseleave', () => {
     card.classList.remove('flip')
 })
 
+
+// TODO:  Add an animation to show a new question came
+// Maybe scale the question down to 0 and back to 1
 newQuestionBtn.addEventListener('click', () => {
     let randomNum = Math.floor(Math.random() * questions.length)
     front.innerHTML = questions[randomNum].question
