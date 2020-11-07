@@ -20,10 +20,6 @@ const btnOne = document.querySelector('#button-one')
 const btnTwo = document.querySelector('#button-two')
 const btnThree = document.querySelector('#button-three')
 
-// const changeStyle = (element, property, value) => {
-//   let currentValue = element.style['property']
-//   element.style['property'] = currentValue == value ?
-// }
 
 btnOne.addEventListener('click', () => {
   text['style'].color = text.style.color == "black" ? "white" : "black"
