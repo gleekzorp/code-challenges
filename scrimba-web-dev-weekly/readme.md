@@ -12,3 +12,5 @@
   - [Solution](https://www.youtube.com/watch?v=VOyp8Nbf5zk)
 - Flip Card
   - [Learn More](https://scrimba.com/scrim/co3114109a0b171012ddf3b5b)
+- Logo Editor
+  - [Learn More](https://scrimba.com/scrim/crqwK6tv)
