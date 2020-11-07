@@ -1,0 +1,56 @@
+/*
+DESCRIPTION:
+Your job is to style the the individual items so that they look like content cards,
+just like what we have in the slides. Each item has a title and a description.
+
+You should use CSS grid for the layout:
+
+- On mobile phones, one column per row
+- On tablet, two columns per row
+- On desktop, three columns per row
+
+Use media queries to make the page responsive.
+For the page width:
+
+- From 0 to 480px should be for mobile
+- Between 480px and 1025px should be for tablets
+- Above 1025px should be for desktop
+
+Feel free to choose your own colors and you can even go ahead to make your cards
+look completely different. Just follow the layout!
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+  text-align: center;
+  color: teal;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  margin: 0 0.5em;
+}
+
+.item {
+  color: white;
+  background-color: teal;
+  box-shadow: 6px 6px 0px 0px rgb(0, 56, 59);
+  padding: 0 0.5em;
+}
+
+@media only screen and (max-width: 1025px) {
+  .row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}

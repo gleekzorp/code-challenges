@@ -14,3 +14,5 @@
   - [Learn More](https://scrimba.com/scrim/co3114109a0b171012ddf3b5b)
 - Logo Editor
   - [Learn More](https://scrimba.com/scrim/crqwK6tv)
+- CSS Grid Responsiveness
+  - [Learn More](https://scrimba.com/scrim/cJgaZGud)
