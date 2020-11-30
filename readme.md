@@ -21,3 +21,12 @@
 
 # Web Development
 - [Scrimba Web Dev Weekly](./scrimba-web-dev-weekly/readme.md)
+
+
+# Javascript Timer For Function Execution
+```javascript
+console.time("timer");
+console.timeLog("timer");
+// Your function call or loop
+console.timeEnd("timer");
+```
