@@ -18,3 +18,5 @@
   - [Learn More](https://scrimba.com/scrim/cJgaZGud)
 - Magic Squares
   - [Learn More](https://scrimba.com/scrim/cwweagtn)
+- Short Changed
+  - [Learn More](https://scrimba.com/scrim/co20d464e9fcad30b0d8781c3)
