@@ -16,3 +16,5 @@
   - [Learn More](https://scrimba.com/scrim/crqwK6tv)
 - CSS Grid Responsiveness
   - [Learn More](https://scrimba.com/scrim/cJgaZGud)
+- Magic Squares
+  - [Learn More](https://scrimba.com/scrim/cwweagtn)
