@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+  font-family: "Nerko One", cursive;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Write your code here 👇 */
+
+.panels {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.panel {
+  flex: 1;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.5);
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel:hover {
+  filter: brightness(1);
+}
+
+/* Prevents clicking on the panel-text and triggering the javascript click */
+.panel * {
+  pointer-events: none
+}
+/*  */
+
+.panel-text {
+  color: transparent;
+  font-size: 4rem;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+.panel:hover .panel-text {
+  color: white;
+}
+
+.first {
+  background-image: url("./images/car-1.jpeg");
+}
+
+.second {
+  background-image: url("./images/cars-road.jpeg");
+}
+
+.third {
+  background-image: url("./images/car-1.jpeg");
+}
+
+/* Used to flip the 3rd image and not the text*/
+.third {
+  transform: scaleX(-1);
+}
+.flip {
+  transform: scaleX(-1);
+}
+/*  */
+
+.expand {
+  flex: 2;
+  filter: brightness(1);
+}
+
+.expand > .panel-text {
+  color: white;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .panels {
+    flex-direction: column;
+  }
+}
