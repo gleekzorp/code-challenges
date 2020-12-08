@@ -1,5 +1,3 @@
-// TODO:  nextCase and previousCase 
-
 function roll(min, max, floatFlag) {
   let r = Math.random() * (max - min) + min
   return floatFlag ? r : Math.floor(r)
@@ -43,11 +41,45 @@ const quarterCounter = document.getElementById("quarter-count")
 const dimeCounter = document.getElementById("dime-count")
 const nickelCounter = document.getElementById("nickel-count")
 const pennyCounter = document.getElementById("penny-count")
+const previousCaseBtn = document.getElementById('previous-case')
+const nextCaseBtn = document.getElementById('next-case')
 
-let sampleTest = testPurses[0]
-console.log(sampleTest)
+let current = 0
+let max = testPurses.length
+let sampleTest = testPurses[current]
 
 // Your code here 👇
+
+previousCaseBtn.addEventListener('click', () => {
+  if (current === 0) {
+    current = max - 1
+    sampleTest = testPurses[current]
+    displayResult()
+    return
+  }
+
+  current--
+  if (current < max) {
+    sampleTest = testPurses[current]
+    displayResult()
+  } else {
+    current = 0
+    sampleTest = testPurses[current]
+    displayResult()
+  }
+})
+
+nextCaseBtn.addEventListener('click', () => {
+  current++
+  if (current < max) {
+    sampleTest = testPurses[current]
+    displayResult()
+  } else {
+    current = 0
+    sampleTest = testPurses[current]
+    displayResult()
+  }
+})
 
 const displayCoinCounts = () => {
   quarterCounter.innerHTML = sampleTest.quarters
