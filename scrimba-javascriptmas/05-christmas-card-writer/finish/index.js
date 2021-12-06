@@ -1,6 +1,5 @@
 const greetingDisplay = document.getElementById("greeting-display");
 const btn = document.getElementById("btn");
-const bauble = document.getElementById("bauble");
 btn.addEventListener("click", writeGreeting);
 
 const greetings = [
@@ -13,6 +12,12 @@ const greetings = [
 
 // Task:
 // Write a function to display a random greeting in the card.
+
+function writeGreeting() {
+  const randomNumber = Math.floor(Math.random() * greetings.length);
+  const randomGreeting = greetings[randomNumber];
+  greetingDisplay.innerText = randomGreeting;
+}
 
 // Stretch goals:
 // - Allow the user to input to and from names.

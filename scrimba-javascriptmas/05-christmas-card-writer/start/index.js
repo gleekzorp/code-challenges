@@ -1,6 +1,5 @@
 const greetingDisplay = document.getElementById("greeting-display");
 const btn = document.getElementById("btn");
-const bauble = document.getElementById("bauble");
 btn.addEventListener("click", writeGreeting);
 
 const greetings = [
