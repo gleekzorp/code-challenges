@@ -4,8 +4,15 @@ christmassifierBtn.addEventListener("click", christmassifyName);
 
 function christmassifyName() {
   // Task:
-  // - Add christmassify class to greeting.
-  //- Check whether christmassifierBtn has christmassify on it. If so, change text to "De-christmassify", if not, change text to "Christmassify"
+  // - Check if you need to add or remove christmassified class to greeting, update the text.
+
+  if (greeting.classList.contains("christmassified")) {
+    greeting.classList.remove("christmassified");
+    christmassifierBtn.innerText = "Christmassify";
+  } else {
+    greeting.classList.add("christmassified");
+    christmassifierBtn.innerText = "De-christmassify";
+  }
 }
 
 // Stretch goals:
