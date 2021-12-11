@@ -24,6 +24,24 @@ let imgNum = 0;
 // - Decide/implement what to do when you reach either end of the array - do nothing and disable buttons, loop back round to the other end, or something else?
 // - Remember to also update the alt tags.
 
+previous.addEventListener("click", () => {
+  imgNum--;
+  if (imgNum < 0) {
+    imgNum = imgs.length - 1;
+  }
+  img.src = imgs[imgNum].src;
+  img.alt = imgs[imgNum].alt;
+});
+
+next.addEventListener("click", () => {
+  imgNum++;
+  if (imgNum > imgs.length - 1) {
+    imgNum = 0;
+  }
+  img.src = imgs[imgNum].src;
+  img.alt = imgs[imgNum].alt;
+});
+
 // Stretch goals:
 // - Add transitions for a smooth effect.
 // - Allow the user to zoom in and out of the images.
