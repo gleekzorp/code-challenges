@@ -1,4 +1,6 @@
-const btn = document.getElementById("btn");
+const form = document.querySelector("form");
+const vegetarian = document.getElementById("vegetarian-input");
+const guests = document.getElementById("guests");
 let food = document.getElementById("food");
 
 // Tasks:
@@ -8,6 +10,15 @@ let food = document.getElementById("food");
 // Vegetarian: nut roast
 // 4 people or less: turkey
 // 5+ people: goose
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  if (vegetarian.checked) {
+    food.textContent = "Nut roast";
+  } else {
+    food.textContent = Number(guests.value) <= 4 ? "Turkey" : "Goose";
+  }
+});
 
 // Stretch goals:
 // - Add more dietary options.
