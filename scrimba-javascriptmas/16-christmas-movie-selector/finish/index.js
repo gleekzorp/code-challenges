@@ -30,6 +30,15 @@ const moviesArr = [
 // Task:
 // - Write a function to select a suitable movie based on the age group and genre provided.
 //  - Display it in the suggested-movie paragraph when the button is clicked.
+function displaySuggestion() {
+  const selectedAge = ageSelector.value;
+  const selectedGenre = genreSelector.value;
+  const selectedMovie = moviesArr.find(
+    (movie) => movie.age === selectedAge && movie.genre === selectedGenre
+  );
+  suggestedMovie.innerText = selectedMovie.name;
+}
+btn.addEventListener("click", displaySuggestion);
 
 // Stretch goals:
 // - Have the function run on each change of the <select> tags.
