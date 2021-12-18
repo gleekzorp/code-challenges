@@ -21,9 +21,23 @@ const greetingsArr = [
   },
 ];
 
-function translate() {
+function populateLanguageSelector() {
+  greetingsArr.forEach((greeting) => {
+    const option = document.createElement("option");
+    option.innerText = greeting.language;
+    languageSelector.appendChild(option);
+  });
+}
+populateLanguageSelector();
+
+function translate(e) {
   // Task:
   // - Write a function to display the correct greeting when a language is selected.
+  const selectedLanguage = e.target.value;
+  const selectedGreeting = greetingsArr.find(
+    (greeting) => greeting.language === selectedLanguage
+  );
+  greetingDisplay.innerText = selectedGreeting.greeting;
 }
 
 // Stretch goals:
