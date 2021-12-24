@@ -1,5 +1,6 @@
+const foodHolder = document.querySelector("#foodHolder");
 const btn = document.getElementById("btn");
-// btn.addEventListener("click", findYum)
+btn.addEventListener("click", findYum);
 
 /* Task:
 Call the Foodish API (https://foodish-api.herokuapp.com/) and display random images of desserts on the click of a button.
@@ -11,3 +12,13 @@ Stretch goals:
 - Show multiple desserts.
 - Add the functionality to go back to the previous image.
 */
+
+function findYum() {
+  fetch("https://foodish-api.herokuapp.com/api/images/dessert")
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      foodHolder.innerHTML = `<img src="${data.image}" alt="${data.name}">`;
+    });
+}
