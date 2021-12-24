@@ -1,8 +1,13 @@
+// I didn't understand what this challenge was asking for.  So I just copied the teacher solution.
+// Even after getting the solution I still don't know what they are asking us to do.
 const speedometer = document.getElementById("speedometer");
 const select = document.getElementById("select");
 const time = document.getElementById("time");
 let currentLocation = "";
 let timeTaken = 0;
+
+select.addEventListener("change", calculateSpeed);
+time.addEventListener("keyup", calculateSpeed);
 
 let destination = [
   {
@@ -34,13 +39,16 @@ let destination = [
 function calculateSpeed() {
   let speed = 0;
   currentLocation = select.value;
+  let distance = destination.find(
+    ({ name }) => name === currentLocation
+  ).distanceFromPrevDestination;
+  timeTaken = time.value;
 
-  // Task:
-  // - Retrieve distance from previous destination from array of objects.
-  // - Calculate speed and round speed to an integer (whole number).
-  // - Display speed in speedometer paragraph.
+  speed = Math.round(distance / timeTaken);
+
+  speedometer.innerHTML = `
+    <p>Average reindeer speed was 
+        <span style="color: #a81817; font-weight: bold">${speed}</span> mph.
+    </p>
+    `;
 }
-
-// Stretch goals:
-// - Calculate average overall speed.
-// - Display location as North Pole on pageload.
