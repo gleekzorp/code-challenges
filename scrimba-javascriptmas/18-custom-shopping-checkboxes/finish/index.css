@@ -4,7 +4,7 @@
   --dark-green: #344d2f;
   --light-green: #77a047;
   --gold: #fac57d;
-  --snow: #f0f4f7;
+  --snow: #fff;
 }
 
 html,
@@ -25,6 +25,7 @@ body {
 }
 
 .checklist {
+  font-size: 30px;
   position: relative;
   background: var(--snow);
   color: var(--dark-green);
@@ -53,9 +54,15 @@ input[type="checkbox"]:checked + label.strikethrough span {
   font-weight: normal;
 }
 
-/* Task:
-- Write the CSS to create custom checkboxes for our shopping list.
+/* custom styles below */
+input[type="checkbox"] {
+  display: none;
+}
 
-Stretch goals: 
-- Add a different random check for each item.
-- Use JavaScript to match the custom check to the item listed, e.g. socks would have socks as the checkmark. */
+input[type="checkbox"] + label:before {
+  content: "◽️";
+}
+
+input[type="checkbox"]:checked + label:before {
+  content: "🎁";
+}
