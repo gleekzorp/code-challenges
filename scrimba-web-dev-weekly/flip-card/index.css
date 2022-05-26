@@ -63,7 +63,11 @@ body {
   height: 300px;
   perspective: 1000px;
   text-align: center;
-  font-size: 1.5rem;
+  /* Possibly look into this svg trick for font size */
+  /* https://css-tricks.com/fitting-text-to-a-container/#aa-just-use-svg */
+  /* font-size: 1.5rem; */
+  /* font-size: 5vw; */
+  font-size: 5vmax;
   color: white;
   animation: slide-down 1s ease-in forwards;
   /* background: rgba(0, 0, 0, 0.2);
